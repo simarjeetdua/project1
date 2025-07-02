@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: hsl(0, 0%, 80%);
+
+}
+.weatherForm{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+#input-city{
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 7px;
+    border: 3px solid hsla(0, 0%, 0%, 0.5);
+    width: 300px;
+    margin: 10px;
+}
+.Search-btn{
+    font-size: 2rem;
+    border-radius: 7px;
+     border: 3px solid hsla(0, 0%, 0%, 0.5);
+     font-weight: 600;
+     background-color: hsl(122, 39%, 50%);
+     margin: 10px;
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+}
+.Search-btn:hover{
+    background-color: hsla(120, 100%, 25%, 0.705)
+}
+.Search-btn:active{
+    background-color: hsla(120, 100%, 25%, 0.973)
+}
+.cards{
+ background: linear-gradient(180deg, rgb(91, 161, 227), rgb(244, 192, 96));
+ padding: 50px;
+ min-width: 400px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ box-shadow: 2px 2px 5px ;
+}
+h1{
+    font-size:4rem;
+    font-style: oblique;
+    margin-bottom: 25px ;
+}
+.cityTemp{
+    font-size: 3rem;
+    font-style: italic;
+}
+p{
+    font-size: 2rem;
+    font-style: italic;
+    margin: 9px ;
+}
+.weather-emoji{
+    font-size: 10rem;
+    font-style: normal;
+    text-shadow: 4px 3px 5px rgba(0, 0, 0, 0.575)
+}
+.errorDisplay{
+    font-size: 2rem;
+    font-weight: bold;
+}
